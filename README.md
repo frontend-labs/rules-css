@@ -41,10 +41,18 @@ Unidad independiente de la aplicación, compuesto por elementos.
 
 ####Regla del elemento:
 Un elemento es parte de un bloque.
-Los elementos son dependientes del ambito.
+Los elementos pueden ser dependientes del ambito para su existencia, 
+tambien hay elementos globales la cual no dependeran de su ambito para existir.
 
+Elementos dependientes a su ambito.
 ```html
 <button class="vHome_bRegister_eBtnPrimary">
+	
+</button>
+```
+Elementos independientes a un ambito.
+```html
+<button class="eBtnPrimary">
 	
 </button>
 ```
