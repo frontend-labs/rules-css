@@ -44,7 +44,8 @@ Los bloques son dependientes de un ambito para su existencia como tambien son in
 
 ####Regla del elemento:
 Un elemento es parte de un bloque.
-Un elemento al igual que un bloque puede ser dependiente o independiente de un ambitoi, t
+Un elemento al igual que un bloque puede ser dependiente o independiente de un ambito.
+
 Elementos dependientes a su ambito.
 ```html
 <ul class="bTab">
