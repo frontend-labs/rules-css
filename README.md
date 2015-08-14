@@ -13,7 +13,7 @@ Estándares css, para un optimo trabajo en equipo.
 6|Estado| is_
 
 ####Sintaxis
-Se coloca la letra correspondiente a cada categoria como prefijo, seguidamente se coloca el nombre que se le asigna utilizando camelCase,
+Se coloca la letra correspondiente a cada categoría como prefijo, seguidamente se coloca el nombre que se le asigna utilizando camelCase,
 diferente son los estados que comienzan con un **(is_)**, seguido de su nombre respectivo.
 
 ####Regla de la Base
@@ -44,7 +44,7 @@ Bloque dependiente de su ambito.
 ```
 Bloque independientes a un ambito.
 ```html
-<div class="bRegister>
+<div class="bRegister">
 
 </div>
 ```
@@ -52,7 +52,7 @@ Bloque independientes a un ambito.
 Un elemento es parte de un bloque.
 Un elemento al igual que un bloque puede ser dependiente o independiente de un ambito.
 
-Elemento dependiente de su ambito.
+Elemento dependiente de su ámbito.
 ```html
 <ul class="bTab">
   <li class="bTab_eItem">
@@ -60,7 +60,7 @@ Elemento dependiente de su ambito.
   </li>
 </ul>
 ```
-Elemento independientes a un ambito.
+Elemento independientes a un ámbito.
 ```html
 <button class="eBtnPrimary">
   mi boton
@@ -75,7 +75,7 @@ Las utilidades se pueden aplicar directamente en cualquier clase.
 ```
 ####Regla de Estado :
 Otorga y anula un estilo, dicho estado siempre tiene que estar contiguo a una clase.
-Un ejemplo podria ser un tab activo.
+Un ejemplo podría ser un tab activo.
 ```html
 <ul class="bTab">
   <li class="bTab_eItem">
